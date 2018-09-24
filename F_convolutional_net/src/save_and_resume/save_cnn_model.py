@@ -32,8 +32,8 @@ import os
 tf.logging.set_verbosity(tf.logging.INFO)
 
 # Where to save Checkpoint(In the /output folder)
-resumepath = "../../_Model/mnist_convnet_model"
-filepath = "../../_Model/output/mnist_convnet_model"
+resumepath = "../../../_Model/mnist_convnet_model"
+filepath = "../../../_Model/output/mnist_convnet_model"
 
 # Hyper-parameters
 batch_size = 128

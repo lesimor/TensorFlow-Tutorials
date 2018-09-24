@@ -1,10 +1,9 @@
 import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
-from F_convolutional_net.src.utils.convolution import *
-from F_convolutional_net.src.utils.generator import *
+from F_convolutional_net.src.mnist_cnn.utils.generator import *
 
 learning_rate = 0.1
-mnist = input_data.read_data_sets("../../_Data/MNIST_data/", one_hot=True)
+mnist = input_data.read_data_sets("../../../_Data/MNIST_data/", one_hot=True)
 
 x = tf.placeholder(tf.float32, [None, 784])
 x_image = tf.reshape(x, [-1, 28, 28, 1])
