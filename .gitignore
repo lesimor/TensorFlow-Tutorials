@@ -76,3 +76,7 @@ venv/
 
 #pynb
 *.ipynb
+
+#model
+_Model/
+_Data/
